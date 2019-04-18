@@ -1,7 +1,7 @@
 provider "aws" {
-  region = "eu-west-2"
+  region                  = "eu-west-2"
   shared_credentials_file = "/c/Users/tapirs/.aws/credentials"
-  profile                 - "terraform"
+  profile                 = "terraform"
 }
 
 resource "aws_vpc" "main" {
